@@ -1,0 +1,79 @@
+.homepage{
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    height: 55px;
+    background-color: yellow;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.search_element{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.search_location{
+    @extend .search_element;
+    width: 400px;
+}
+
+.search_day{
+    @extend .search_element;
+    width: 250px;
+}
+
+.search_submit_btn{
+    @extend .search_element;
+    width: 70px;
+}
+
+.list_hotel{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hotel{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 250px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hotel_img{
+    height: 240px;
+    width: 100%;
+    position: relative;
+}
+
+.hotel_info{
+    width: 100%;
+    padding: 10px;
+}
+
+.hotel_info_name{
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.hotel_info_location{
+
+}
+
